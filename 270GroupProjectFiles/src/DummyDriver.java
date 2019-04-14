@@ -7,8 +7,6 @@ public class DummyDriver {
 		DrugLine dl = new DrugLine("Driggy Drug", 200, 16, 8);
 		DrugLine dl2 = new DrugLine("Sweetness", 500, 16, 12);
 		ArrayList <DrugLine> lines = new ArrayList <DrugLine>();
-//		lines.add(dl);
-//		lines.add(dl2);
 		
 		Prescription p = new Prescription();
 		p.setId("87TYN64O");
