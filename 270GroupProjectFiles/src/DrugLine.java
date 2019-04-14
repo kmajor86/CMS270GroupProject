@@ -56,7 +56,7 @@ public class DrugLine {
 		this.timesRefilled = timesRefilled;
 	}
 	
-	//toString()
+	//toString() Method
 	public String toString() {
 		return "Drug: " + this.drug + "   Dosage: " + this.dosage + "   Refills Left: " + 
 				this.refillsLeft + "   Refills Used: " + this.timesRefilled;
