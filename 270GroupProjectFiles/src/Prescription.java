@@ -62,7 +62,7 @@ public class Prescription {
 			
 		}
 
-		//toString()
+		//toString() Method
 		public String toString() {
 			
 			String buildMe =  "Id: " + this.Id + "\nDate Issued: " + this.dateIssued + 
