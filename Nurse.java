@@ -40,7 +40,7 @@ public class Nurse {
 	public void commit()
 	{
 		try {
-			File outFile = new File("NurseData");
+			File outFile = new File("Nurse");
 			PrintWriter ps = new PrintWriter(outFile);
 			ps.println("Nurse's name is " + getName());
 			ps.close();
